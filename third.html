@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+            background-color:white;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .btn {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 15px 30px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .btn:hover {
+            background-color: #45a049; /* Darker Green */
+        }
+        .btn.stocks {
+            background-color: #ff6600; /* Orange */
+        }
+        .btn.stocks:hover {
+            background-color: #ff8000; /* Darker Orange */
+        }
+        .btn.fixed-deposit {
+            background-color: #0066ff; /* Blue */
+        }
+        .btn.fixed-deposit:hover {
+            background-color: #0047b3; /* Darker Blue */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Choose an Investment Option:</h2>
+        <a href="mutual_fund.html" class="btn">Mutual Fund</a>
+        <a href="stocks.html" class="btn stocks">Stocks</a>
+        <a href="fixed_deposit.html" class="btn fixed-deposit">Fixed Deposit to any bank</a>
+    </div>
+</body>
+</html>
